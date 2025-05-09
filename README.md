@@ -1,10 +1,11 @@
-# 🧗 Climbing Mechanics (Zelda/Uncharted Style)
+#  Climbing Mechanics (Zelda/Uncharted Style)
 
 This is my approach to creating climbing mechanics similar to those in games like *The Legend of Zelda: Tears of the Kingdom* and *Uncharted*.
 
 Climb physics, vaulting actions, and an IK control rig are used to shape exactly how the character moves, climbs, and interacts with the environment.
 
 In this demo, the player dynamically performs a vault or climb action based on the object's height, distance, and other factors in front.
+  ### Follow Development here : [Link](https://www.youtube.com/playlist?list=PLuB7iMA25lu-h2bbjuA8XGDXH3ydaKaBX)
 
 ---
 
@@ -103,7 +104,6 @@ I implemented a custom function to trace climbable surfaces and adjust the chara
 - **Surface-Tracing for Accurate IK:** The trace function calculates the exact points where the character’s hands and feet should attach. This allows the IK system to update dynamically, enhancing realism as the character moves across various surfaces.
 
  
-  ### Follow Development here : [Link](https://www.youtube.com/playlist?list=PLuB7iMA25lu-h2bbjuA8XGDXH3ydaKaBX)
 
 
   
